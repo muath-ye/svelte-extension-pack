@@ -1,0 +1,31 @@
+{
+    "name": "svelte-expack",
+    "displayName": "svelte Extension Pack",
+    "description": "This extension pack is for svelte development.",
+    "version": "1.0.5",
+    "publisher": "muath",
+    "icon": "images/icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/muath-ye/svelte-extension-pack.git"
+    },
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "scripts": {
+        "package": "vsce package",
+        "publish": "vsce publish"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "svelte.svelte-vscode",
+        "ardenivanov.svelte-intellisense",
+        "fivethree.vscode-svelte-snippets",
+        "pivaszbs.svelte-autoimport"
+    ],
+    "devDependencies": {
+        "vsce": "^2.10.0"
+    }
+}
